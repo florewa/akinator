@@ -4,9 +4,10 @@ body {
   @include fluid-text(16, 16);
   font-family: var(--font-family-base);
   line-height: 1;
-  color: var(--dark-blue);
-  background-image: url('@/shared/assets/images/bg.png');
   overflow-y: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
